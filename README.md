@@ -187,12 +187,14 @@ nodemon server.js
 ---
 
 
+ ## Results :  
+BEFORE CACHING :   ![image](https://github.com/user-attachments/assets/fb09c27a-80a5-453c-8986-9b54db8e82bc)
 
-33 Results : 
+AFTER CACHING  : ![image](https://github.com/user-attachments/assets/dcc11717-b036-4a83-8c16-c96cf71743f7)
 
-BEFORE CACHING :  ![image](https://github.com/user-attachments/assets/fa17ade3-2cbd-491e-985a-c97560d9dc69) 
 
-AFTER CACHING :   ![image](https://github.com/user-attachments/assets/cf36a3bf-6f8e-4e22-ab29-a0818482574d)
+
+✅ **Reduced response time to 24mili seconds from 2.4 seconds** 
 
 
 
