@@ -7,10 +7,11 @@ This project demonstrates how to integrate **Redis** as a caching layer in a **N
 ---
 
 ## ✨ Features  
-✅ **Fast API Responses** – Caches fish species data in Redis to reduce redundant API calls.  
-🚀 **Redis Hash Storage** – Uses Redis `hSet` and `hGet` to store and retrieve species data under a `"fish"` key.  
-⏳ **Time-Based Expiry** – Cached data automatically expires after 30 seconds to ensure freshness.  
-⚡ **Optimized Middleware** – Implements caching as Express middleware for seamless integration.  
+✨ Features
+✅ 🚀 8x Faster API Responses – Reduces response time from 2 seconds to ~250ms ⚡
+🐠 Efficient Caching – Stores fish species data in Redis to minimize redundant API calls
+⏳ Time-Based Expiry – Ensures fresh data by expiring cached data every 30 seconds
+⚡ Optimized Middleware – Implements caching as Express middleware for seamless integration
 
 ---
 
