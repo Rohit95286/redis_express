@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const axios = require("axios");
 const port = process.env.PORT || 3000;
-const redisClient = require("./redis/redis.config");
+const redisClient = require("./redis.config");
 
 async function cacheData(req, res, next) {
   const species = req.params.species;
