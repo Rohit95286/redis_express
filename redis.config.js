@@ -1,5 +1,6 @@
 const redis = require("redis");
 let redisClient;
+require("dotenv").config();
 
 (async () => {
   redisClient = redis?.createClient({
@@ -8,6 +9,8 @@ let redisClient;
       port: 6379, // Change port if needed
     },
   });
+
+  console.log(process.env.REDIS_CLOUD, "REDIS_CLOUDREDIS_CLOUD");
 
   redisClient.on("error", error => console.error(`Error: ${error}`));
   redisClient.on("connect", () => console.error(`Connected to redis!!!`));
