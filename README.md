@@ -186,9 +186,21 @@ nodemon server.js
 
 ---
 
+
+
+33 Results : 
+
+BEFORE CACHING :  ![image](https://github.com/user-attachments/assets/fa17ade3-2cbd-491e-985a-c97560d9dc69) 
+
+AFTER CACHING :   ![image](https://github.com/user-attachments/assets/cf36a3bf-6f8e-4e22-ab29-a0818482574d)
+
+
+
 ## 📢 Contributions & Issues  
 Feel free to open an issue or submit a pull request for improvements! 🚀🔥  
 
 ---
+
+
 
 ### ✅ **Now You Have a Complete Setup with Redis Caching!** 🚀  
