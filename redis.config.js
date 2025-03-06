@@ -3,9 +3,10 @@ let redisClient;
 
 (async () => {
   redisClient = redis?.createClient({
- socket: {
-      host: "red-cv4llt0fnakc73bplbb0", // Remove "redis://"
-      port: 6379, // Keep the port as is
+    socket: {
+      host: process.env.REDIS_CLOUD,
+      port: 6379, // Change port if needed
+
     },
   });
 
