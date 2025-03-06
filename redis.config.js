@@ -3,7 +3,10 @@ let redisClient;
 
 (async () => {
   redisClient = redis?.createClient({
-     url: "redis://red-cv4llt0fnakc73bplbb0:6379"
+ socket: {
+      host: "red-cv4llt0fnakc73bplbb0", // Remove "redis://"
+      port: 6379, // Keep the port as is
+    },
   });
 
   redisClient.on("error", error => console.error(`Error: ${error}`));
