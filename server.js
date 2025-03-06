@@ -37,8 +37,8 @@ async function getSpeciesData(req, res) {
   try {
     results = await fetchApiData(species);
     // await redisClient.set(species, JSON.stringify(results), {EX: 30});
-    // await redisClient.hSet("fish", species, JSON.stringify(results));
-    // await redisClient.expire("fish", 30);
+    await redisClient.hSet("fish", species, JSON.stringify(results));
+    await redisClient.expire("fish", 30);
     res.send({
       fromCache: isCached,
       data: results,
