@@ -6,6 +6,7 @@ let redisClient;
     socket: {
       host: process.env.REDIS_CLOUD,
       port: 6379, // Change port if needed
+
     },
   });
 

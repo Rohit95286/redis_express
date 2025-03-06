@@ -186,9 +186,23 @@ nodemon server.js
 
 ---
 
+
+ ## Results :  
+BEFORE CACHING :   ![image](https://github.com/user-attachments/assets/fb09c27a-80a5-453c-8986-9b54db8e82bc)
+
+AFTER CACHING  : ![image](https://github.com/user-attachments/assets/dcc11717-b036-4a83-8c16-c96cf71743f7)
+
+
+
+✅ **Reduced response time to 24mili seconds from 2.4 seconds** 
+
+
+
 ## 📢 Contributions & Issues  
 Feel free to open an issue or submit a pull request for improvements! 🚀🔥  
 
 ---
+
+
 
 ### ✅ **Now You Have a Complete Setup with Redis Caching!** 🚀  
